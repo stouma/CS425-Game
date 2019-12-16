@@ -1,5 +1,7 @@
 # CS425 Final Game - Psychedelica
 
+Play [HERE](https://stouma.github.io/CS425-Game/)
+
 In this simple Shoot 'Em Up game, take control of the butterfly as it journeys through various environments
 and stumbles across different kinds of enemies trying to get to its destination. Each kind of enemy has a
 different type of attack that the player must avoid. The butterfly has its own attack that the player can use
