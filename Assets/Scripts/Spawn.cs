@@ -18,12 +18,21 @@ public class Spawn : MonoBehaviour
 
     void SpawnEnemy()
     {
-        elapsedTime += Time.deltaTime;
 
-        for (int i = 0; i < waves; i++)
+        if (elapsedTime >= 180)
         {
-            //Instantiate(enemies[(int)Random.Range(0, enemies.Length)], new Vector3(Random.Range(-4.5f, 4.5f), 4, 0), Quaternion.identity);
-            Instantiate(enemies[enemytype], new Vector3(Random.Range(-4.5f, 4.5f), 5, 0), Quaternion.identity);
+            for (int i = 0; i < waves; i++)
+            {
+                Instantiate(enemies[(int)Random.Range(0, enemies.Length)], new Vector3(Random.Range(-4.5f, 4.5f), 4, 0), Quaternion.identity);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < waves; i++)
+            {
+                //Instantiate(enemies[(int)Random.Range(0, enemies.Length)], new Vector3(Random.Range(-4.5f, 4.5f), 4, 0), Quaternion.identity);
+                Instantiate(enemies[enemytype], new Vector3(Random.Range(-4.5f, 4.5f), 5, 0), Quaternion.identity);
+            }
         }
 
     }
@@ -32,12 +41,13 @@ public class Spawn : MonoBehaviour
     {
         timePassed += Time.deltaTime;
         t += Time.deltaTime;
+        elapsedTime += Time.deltaTime;
 
-        if(t >= 60)
+        if (t >= 60)
         {
             t -= 60;
             waves = 1;
-            if(enemytype < enemies.Length)
+            if(enemytype < 2)
                 enemytype++;
         }
 

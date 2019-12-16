@@ -37,5 +37,14 @@ public class BGScript : MonoBehaviour
         {
             ps.Play();
         }
+        if (timePassed >= 180 && gameObject.tag == "Snow")
+        {
+            if (ps.isPlaying) ps.Stop();
+        }
+        if (timePassed >= 180 && gameObject.tag == "Lastbg")
+        {
+            if(!ps.isPlaying) ps.Play();
+            //Debug.Log("LastBG");
+        }
     }
 }

@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
     {
         source = GetComponent<AudioSource>();
         xsp = Random.Range(-xSpeed, xSpeed);
-        ysp = Random.Range(ySpeed, ySpeed+0.3f);
+        ysp = Random.Range(ySpeed, ySpeed+0.4f);
 
         if (canShoot)
         {

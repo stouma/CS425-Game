@@ -5,8 +5,8 @@ using UnityEngine;
 public class CameraScript : MonoBehaviour
 {
     float timePassed;
-    public Color color1, color2, color3;
-    private float t = 0 , t2 =0;
+    public Color color1, color2, color3, color4;
+    private float t = 0 , t2 =0, t3 = 0;
     Camera cam;
 
     // Start is called before the first frame update
@@ -39,6 +39,16 @@ public class CameraScript : MonoBehaviour
 
             if(t2 < 1)
                 t2 += Time.deltaTime;
+        }
+
+        if (timePassed >= 180)
+        {
+            //timePassed -= 10;
+            Color currColor = Color.Lerp(color3, color4, t3);
+            cam.backgroundColor = currColor;
+
+            if (t3 < 1)
+                t3 += Time.deltaTime;
         }
 
         //if(t < 5)

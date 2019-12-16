@@ -6,7 +6,7 @@ public class AudioScript : MonoBehaviour
 {
     public AudioSource source;
 
-    public AudioClip clip1, clip2, clip3;
+    public AudioClip clip1, clip2, clip3, clip4;
 
     float timePassed;
 
@@ -32,6 +32,10 @@ public class AudioScript : MonoBehaviour
             else if(source.clip == clip2)
             {
                 ChangeBGM(clip3);
+            }
+            else if(source.clip == clip3)
+            {
+                ChangeBGM(clip4);
             }
         }
     }
