@@ -175,11 +175,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xSpeed: 0
-  ySpeed: 1
+  ySpeed: 1.2
   fireRate: 0
   health: 2
   canShoot: 0
+  score: 100
   bullet: {fileID: 0}
+  heart: {fileID: 3484989165598777766, guid: 44335a64aa78fce41b1bf7751a1fd837, type: 3}
 --- !u!82 &82657604703914314
 AudioSource:
   m_ObjectHideFlags: 0

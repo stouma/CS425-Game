@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267871083441962829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.69, y: 1.83, z: -9.69961}
+  m_LocalPosition: {x: -1.69, y: 1.83, z: 0}
   m_LocalScale: {x: 2.861665, y: 2.861665, z: 2.861665}
   m_Children: []
   m_Father: {fileID: 0}
@@ -180,11 +180,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xSpeed: 0
-  ySpeed: 0.3
+  ySpeed: 0.4
   fireRate: 5
   health: 4
   canShoot: 1
+  score: 250
   bullet: {fileID: 331660332404850179, guid: b5429a4360cb86d47a6663d74ec6a170, type: 3}
+  heart: {fileID: 3484989165598777766, guid: 44335a64aa78fce41b1bf7751a1fd837, type: 3}
 --- !u!82 &8497598492349275168
 AudioSource:
   m_ObjectHideFlags: 0

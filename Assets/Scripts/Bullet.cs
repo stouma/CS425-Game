@@ -16,8 +16,6 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
-
-        Destroy(gameObject, 5);
     }
 
     public void ChangeDirection()
@@ -34,6 +32,7 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         source.Play();
+        
 
         if (dir == 1)
         {
@@ -48,8 +47,10 @@ public class Bullet : MonoBehaviour
             if (col.gameObject.tag == "Player")
             {
                 col.gameObject.GetComponent<Butterfly>().Damage();
+                Debug.Log("Hit!");
                 Destroy(gameObject);
             }
         }
     }
+
 }

@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 892481585414294051}
   - component: {fileID: 892481585414294052}
   - component: {fileID: 82890613190726136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -187,6 +187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1831838429123675887, guid: bc4e0a4de6fbe9541b5136bcfc0f1482,
+    type: 3}
+  explosion: {fileID: 2643118490745384932, guid: b6fb43f8e0998b0448eea0b74aebc6e7,
     type: 3}
   speed: 10
 --- !u!95 &892481585414294052

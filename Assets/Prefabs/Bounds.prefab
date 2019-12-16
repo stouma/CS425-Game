@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7d98dc7bab6c0b499197f013b641dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rate: 3
+  rate: 5
   enemies:
   - {fileID: 7300407981950052903, guid: 2952485b2810e14478b2a1c8b735d887, type: 3}
   - {fileID: 7797806369673704846, guid: bd10b5bdc23154b4290179476718114c, type: 3}

@@ -7,7 +7,7 @@ public class Butterfly : MonoBehaviour
     private AudioSource source;
 
     GameObject bullet;
-    public GameObject projectile;
+    public GameObject projectile, explosion;
     Rigidbody2D rb;
     public float speed;
     int health = 3;
@@ -23,6 +23,7 @@ public class Butterfly : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
+        PlayerPrefs.SetInt("Health", health);
     }
 
     // Update is called once per frame
@@ -42,17 +43,34 @@ public class Butterfly : MonoBehaviour
     public void Damage()
     {
         health--;
+        PlayerPrefs.SetInt("Health", health);
         source.Play();
+        //Debug.Log("Hit!");
+        StartCoroutine(Blink());
 
         if (health == 0)
         {
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+    }
+
+    IEnumerator Blink()
+    {
+        GetComponent<SpriteRenderer>().color = Color.black;
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
     }
 
     void Shoot()
     {
         delay = 0;
         Instantiate(projectile, bullet.transform.position, Quaternion.identity);
+    }
+
+    public void AddHealth()
+    {
+        health++;
+        PlayerPrefs.SetInt("Health", health);
     }
 }
