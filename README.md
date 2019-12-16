@@ -7,13 +7,15 @@ to defeat the enemies and rank up their score. Enemies have a chance of dropping
 an additional life.
 
 Controls:  
-   -Move with WASD or Arrow Keys  
-   -Shoot with Space
+
+	 -Move with WASD or Arrow Keys  
+  	 -Shoot with Space
 
 Credits:  
 All assets obtained from opengameart.org unless otherwise stated.
 
 Music/OSTs:  
+
 	-Meadow Thoughts by Ecrivain  
 	-Desert March by tcarisland  
 	-Snowfall by Joseph Gilbert / Kistol  
@@ -28,6 +30,7 @@ Music/OSTs:
 	-Cartoon Squek Singles by Motion_S (freesound.org)  
 
 Sprites:  
+
 	-Butterfly from glitchthegame.com  
 	-Fly by YuriNikolai  
 	-Wasp by Spring, Puffolotti  
