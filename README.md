@@ -9,3 +9,27 @@ an additional life.
 Controls:  
    -Move with WASD or Arrow Keys  
    -Shoot with Space
+
+Credits:  
+All assets obtained from opengameart.org unless otherwise stated.
+
+Music/OSTs:  
+	-Meadow Thoughts by Ecrivain  
+	-Desert March by tcarisland  
+	-Snowfall by Joseph Gilbert / Kistol  
+	-Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3  
+	-The Field of Dreams by pauliuw  
+	-Free Run [8 bit(ish)] (Project 2 marioish) by TAD  
+	
+	-Shimmer Glitter Magic (shimmer_1) by The Berklee College of Music  
+	-Crystal by Widowaker (freesound.org)  
+	-Skill Hit by pauliuw  
+	-Swish - Bamboo Stick Weapon Swhoshes by Iwan Gabovitch  
+	-Cartoon Squek Singles by Motion_S (freesound.org)  
+
+Sprites:  
+	-Butterfly from glitchthegame.com  
+	-Fly by YuriNikolai  
+	-Wasp by Spring, Puffolotti  
+	-Animated Bird Characters by Mantis  
+	-Heart Pixel Art by DontMind8 (dontmind8.blogspot.com)
