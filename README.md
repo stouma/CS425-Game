@@ -18,10 +18,8 @@ Music/OSTs:
 
 	-Meadow Thoughts by Ecrivain  
 	-Desert March by tcarisland  
-	-Snowfall by Joseph Gilbert / Kistol  
-	-Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3  
+	-Snowfall by Joseph Gilbert / Kistol   
 	-The Field of Dreams by pauliuw  
-	-Free Run [8 bit(ish)] (Project 2 marioish) by TAD  
 	
 	-Shimmer Glitter Magic (shimmer_1) by The Berklee College of Music  
 	-Crystal by Widowaker (freesound.org)  
