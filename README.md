@@ -11,8 +11,8 @@ Controls:
 	 -Move with WASD or Arrow Keys  
   	 -Shoot with Space
 
-Credits:  
-All assets obtained from opengameart.org unless otherwise stated.
+CREDITS:  
+	All assets obtained from opengameart.org unless otherwise stated.
 
 Music/OSTs:  
 
