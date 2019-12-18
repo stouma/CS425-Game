@@ -46,7 +46,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.7
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -144,3 +144,4 @@ MonoBehaviour:
   clip1: {fileID: 8300000, guid: c1e39cb77c819d948a63928d70fffa16, type: 3}
   clip2: {fileID: 8300000, guid: 0b503b5c5283c204eafacf7384282da5, type: 3}
   clip3: {fileID: 8300000, guid: a917ee0d61d22f5488edf6babdebd554, type: 3}
+  clip4: {fileID: 8300000, guid: 4561e3f79a7a1434398c4b59c4ddc86d, type: 3}
