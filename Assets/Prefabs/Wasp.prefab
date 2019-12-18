@@ -177,7 +177,7 @@ MonoBehaviour:
   xSpeed: 2
   ySpeed: 0.5
   fireRate: 3
-  health: 4
+  health: 3
   canShoot: 1
   score: 150
   bullet: {fileID: 2552471785859835919, guid: 24810a7344fd9c1439096c8d69379dd6, type: 3}

@@ -51,18 +51,19 @@ public class Spawn : MonoBehaviour
                 enemytype++;
         }
 
-        if (timePassed >= 10 && waves <= 3 && enemytype != 2)
+        if (timePassed >= 10 && waves <= 3)
         {
-            Debug.Log(waves);
+            Debug.Log("Wave:"+waves);
             timePassed -= 10;
             waves++;
         }
 
         if (timePassed >= 10 && waves <= 2 && enemytype == 2)
         {
-            Debug.Log(waves);
+            Debug.Log("Wave:" + waves);
             timePassed -= 10;
             waves++;
         }
+
     }
 }

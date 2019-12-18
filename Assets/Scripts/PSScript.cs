@@ -20,6 +20,7 @@ public class PSScript : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         other.GetComponent<Butterfly>().Damage();
-        Debug.Log("Particle Hit!");
+        //Debug.Log("Particle Hit!");
     }
+
 }

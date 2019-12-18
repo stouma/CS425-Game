@@ -20,6 +20,8 @@ public class Enemy : MonoBehaviour
 
     public GameObject bullet, heart;
 
+    GameObject temp;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -57,7 +59,7 @@ public class Enemy : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             col.gameObject.GetComponent<Butterfly>().Damage();
-            Debug.Log("Hit!");
+            //Debug.Log("Hit!");
             Die();
         }
     }
@@ -75,7 +77,7 @@ public class Enemy : MonoBehaviour
 
     void Shoot()
     {
-        GameObject temp = (GameObject) Instantiate(bullet, new Vector3(transform.position.x, transform.position.y-1, transform.position.z), Quaternion.identity);
+        temp = (GameObject) Instantiate(bullet, new Vector3(transform.position.x, transform.position.y-1, transform.position.z), Quaternion.identity);
         temp.GetComponent<Bullet>().ChangeDirection();
     }
 
@@ -87,5 +89,6 @@ public class Enemy : MonoBehaviour
         }
         PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
         Destroy(gameObject);
+        Destroy(temp);
     }
 }
