@@ -14,11 +14,10 @@ Controls:
   	 -Shoot with Space
 
 CREDITS:  
-	All assets obtained from opengameart.org unless otherwise stated.
 
 Music/OSTs:  
 
-	-Meadow Thoughts by Ecrivain  
+	-[Meadow Thoughts](https://opengameart.org/content/meadow-thoughts) by Ecrivain  
 	-Desert March by tcarisland  
 	-Snowfall by Joseph Gilbert / Kistol   
 	-The Field of Dreams by pauliuw  
