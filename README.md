@@ -26,8 +26,8 @@ Music/OSTs:
 	- [Cartoon Squeak Singles](https://freesound.org/people/Motion_S/sounds/188001/) by Motion_S (freesound.org)  
 
 Sprites:  
-	-[Butterfly](https://www.glitchthegame.com/inhabitants/other/butterfly/) from glitchthegame.com  
-	-[Fly](https://opengameart.org/content/fly-creature-animated) by YuriNikolai  
-	-[Wasp](https://opengameart.org/content/wasp-0) by Spring, Puffolotti  
-	-[Animated Bird Characters](https://opengameart.org/content/animated-bird-characters) by Mantis  
-	-[Heart Pixel Art](https://opengameart.org/content/heart-pixel-art) by DontMind8 (dontmind8.blogspot.com)
+	- [Butterfly](https://www.glitchthegame.com/inhabitants/other/butterfly/) from glitchthegame.com  
+	- [Fly](https://opengameart.org/content/fly-creature-animated) by YuriNikolai  
+	- [Wasp](https://opengameart.org/content/wasp-0) by Spring, Puffolotti  
+	- [Animated Bird Characters](https://opengameart.org/content/animated-bird-characters) by Mantis  
+	- [Heart Pixel Art](https://opengameart.org/content/heart-pixel-art) by DontMind8 (dontmind8.blogspot.com)
