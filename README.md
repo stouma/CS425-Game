@@ -16,14 +16,14 @@ Controls:
 CREDITS:  
 
 Music/OSTs:  
-	-[Meadow Thoughts](https://opengameart.org/content/meadow-thoughts) by Ecrivain  
-	-[Desert March](https://opengameart.org/content/desert-march) by tcarisland  
-	-[Snowfall](https://opengameart.org/content/snowfall) by Joseph Gilbert / Kistol   
-	-[The Field of Dreams](https://opengameart.org/content/the-field-of-dreams) by pauliuw    
-	-[Crystal](https://freesound.org/people/Widowaker/sounds/459107/) by Widowaker
-	-[Skill Hit](https://opengameart.org/content/skill-hit) by pauliuw  
-	-[Swish - Bamboo Stick Weapon Swhoshes](https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes) by Iwan Gabovitch  
-	-[Cartoon Squeak Singles](https://freesound.org/people/Motion_S/sounds/188001/) by Motion_S (freesound.org)  
+	- [Meadow Thoughts](https://opengameart.org/content/meadow-thoughts) by Ecrivain  
+	- [Desert March](https://opengameart.org/content/desert-march) by tcarisland  
+	- [Snowfall](https://opengameart.org/content/snowfall) by Joseph Gilbert / Kistol   
+	- [The Field of Dreams](https://opengameart.org/content/the-field-of-dreams) by pauliuw  
+	- [Crystal](https://freesound.org/people/Widowaker/sounds/459107/) by Widowaker  
+	- [Skill Hit](https://opengameart.org/content/skill-hit) by pauliuw  
+	- [Swish - Bamboo Stick Weapon Swhoshes](https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes) by Iwan Gabovitch  
+	- [Cartoon Squeak Singles](https://freesound.org/people/Motion_S/sounds/188001/) by Motion_S (freesound.org)  
 
 Sprites:  
 	-[Butterfly](https://www.glitchthegame.com/inhabitants/other/butterfly/) from glitchthegame.com  
