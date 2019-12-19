@@ -8,6 +8,8 @@ different type of attack that the player must avoid. The butterfly has its own a
 to defeat the enemies and rank up their score. Enemies have a chance of dropping a heart that gives the player
 an additional life.
 
+[Gameplay Video](https://drive.google.com/file/d/1x_3qoOKKbImULuMHMNZef8DklCTHLB3K/view?usp=sharing)
+
 Controls:  
 
 	 -Move with WASD or Arrow Keys  
